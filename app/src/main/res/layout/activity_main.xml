@@ -8,10 +8,17 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ingrese la nota:"
+        android:text="@string/Titulo"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mandato"
         android:textSize="18sp" />
 
     <EditText
@@ -24,7 +31,7 @@
         android:id="@+id/convertirButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Convertir" />
+        android:text="@string/btn" />
 
     <TextView
         android:id="@+id/resultadoTextView"
@@ -33,11 +40,6 @@
         android:layout_marginTop="16dp"
         android:textSize="18sp" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="131dp"
-        android:layout_height="wrap_content"
-        android:text="@string/NameArianny" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -49,6 +51,14 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="23dp"
-        android:text="@string/Matricula" />
+        android:text="@string/Matricula"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:text="@string/NameArianny"
+        android:textSize="16sp"/>
 
 </LinearLayout>

@@ -2,4 +2,7 @@
     <string name="app_name">1era Práctica</string>
     <string name="NameArianny">Arianny Rodriguez</string>
     <string name="Matricula">2020-10374</string>
+    <string name="Titulo">Calculadora de calificaciones</string>
+    <string name="mandato">Ingrese la nota</string>
+    <string name="btn">Calcular</string>
 </resources>

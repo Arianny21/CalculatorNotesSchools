@@ -32,13 +32,13 @@ public class MainActivity extends AppCompatActivity {
                 String resultado;
 
                 if (nota >= 90 && nota <= 100) {
-                    resultado = "A";
+                    resultado = "Es una A. ¡Muchas felicidades, sigue así!";
                 } else if (nota >= 80 && nota < 90) {
-                    resultado = "B";
+                    resultado = "Es una B. ¡Muy bien, continua dando lo mejor de tí!";
                 } else if (nota >= 70 && nota < 80) {
-                    resultado = "C";
+                    resultado = "Es una C. ¡Puedes hacerlo mejor!";
                 } else {
-                    resultado = "F";
+                    resultado = "Es una F. ¡Esfuerzate más a la próxima!";
                 }
 
                 resultadoTextView.setText("Resultado: " + resultado);
